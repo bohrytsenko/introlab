@@ -2,7 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a206d1-5e9f-477e-9391-15e0893dbccf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/Gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/dist/decouple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/dist/decouple.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/decouple/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/demo/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/dist/preloader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/dist/preloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/preloader.css3/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/base-context-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/base-context.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/base-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/buttons-core-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/buttons-core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/buttons-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/forms-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/forms-nr-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/forms-nr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-core-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-responsive-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-responsive-old-ie-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-responsive-old-ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-units-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids-units.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/grids.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-core-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-dropdown-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-dropdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-horizontal-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-horizontal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-scrollable-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-scrollable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-skin-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus-skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/menus.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/pure-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/pure-nr-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/pure-nr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/pure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/tables-min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/pure/tables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/dist/slideout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/dist/slideout.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/slideout.js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/css/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/maps/swiper.jquery.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/maps/swiper.jquery.umd.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/maps/swiper.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.jquery.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.jquery.umd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/dist/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/a11y.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/dom-plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/emitter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/get-dom-lib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/get-jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/hashnav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/lazy-load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/parallax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/scrollbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/swiper-intro-f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/swiper-intro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/swiper-outro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/swiper-proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/wrap-end-umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/wrap-end.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/wrap-start-umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/wrap-start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/effects.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/navigation-f7.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/navigation.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/preloader-f7.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/preloader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/scrollbar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/swiper.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bower_comp/swiper/src/less/zoom.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/partials/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/partials/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/partials/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/partials/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/partials/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/partials/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/header.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,47 +156,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/partials/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="media.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/style/partials/media.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="115" column="24" selection-start-line="115" selection-start-column="24" selection-end-line="115" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style/partials/home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="53" column="3" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="53" selection-end-column="3" />
+            <state relative-caret-position="87">
+              <caret line="356" column="21" selection-start-line="356" selection-start-column="21" selection-end-line="356" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="87">
+              <caret line="357" column="63" selection-start-line="357" selection-start-column="63" selection-end-line="357" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#section#0;n#!!top" />
@@ -71,6 +184,7 @@
                 <element signature="n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#!!top" />
+                <marker date="1535890471873" expanded="true" signature="11656:17035" ph="..." />
               </folding>
             </state>
           </provider>
@@ -98,6 +212,9 @@
       <find>.why_item</find>
       <find>how</find>
       <find>img</find>
+      <find>active</find>
+      <find>none</find>
+      <find>rotate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,21 +226,26 @@
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/src/style/partials/main.sass" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/src/templates/header.html" />
-        <option value="$PROJECT_DIR$/src/style/partials/header.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/global.scss" />
         <option value="$PROJECT_DIR$/src/templates/footer.html" />
-        <option value="$PROJECT_DIR$/src/style/partials/footer.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/templates/content.html" />
-        <option value="$PROJECT_DIR$/src/js/partials/app.js" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
-        <option value="$PROJECT_DIR$/src/style/partials/home.scss" />
         <option value="$PROJECT_DIR$/src/style/partials/media.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/style/partials/global.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/header.scss" />
+        <option value="$PROJECT_DIR$/src/style/partials/footer.scss" />
+        <option value="$PROJECT_DIR$/src/templates/header.html" />
+        <option value="$PROJECT_DIR$/src/js/partials/app.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/src/style/partials/home.scss" />
+        <option value="$PROJECT_DIR$/src/templates/content.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="/usr/local/lib/node_modules/bower" />
+    <bower.json value="$PROJECT_DIR$/bower.json" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -143,7 +265,6 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/build/bower_comp/components-font-awesome/package.json" />
       <path value="$PROJECT_DIR$/build/bower_comp/emitter-es6/package.json" />
-      <path value="$PROJECT_DIR$/build/bower_comp/preloader.css3/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
@@ -245,26 +366,25 @@
       <updated>1535731083960</updated>
       <workItem from="1535731087349" duration="1687000" />
       <workItem from="1535732866263" duration="12577000" />
-      <workItem from="1535748225250" duration="7395000" />
+      <workItem from="1535748225250" duration="14268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21659000" />
+    <option name="totallyTimeSpent" value="28532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32833788" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32833788" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,6 +439,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -340,48 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="192" column="21" lean-forward="true" selection-start-line="192" selection-start-column="21" selection-end-line="192" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="18" lean-forward="true" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -390,49 +472,6 @@
             <element signature="n#style#0;n#footer#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#footer#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="271" lean-forward="true" selection-start-line="271" selection-end-line="271" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#section#1;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" />
-            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
-            <element signature="n#section#2;n#!!top" />
-            <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#section#3;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/partials/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -450,10 +489,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/partials/home.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="53" column="3" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="53" selection-end-column="3" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -464,10 +503,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/style/partials/global.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="416">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#header#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="42" column="13" selection-start-line="38" selection-start-column="12" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bee3dslider/codecanyon-9853467-bee3d-slider-touchenabled-pure-js-plugin/build/examples/effect-carousel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bee3dslider/codecanyon-9853467-bee3d-slider-touchenabled-pure-js-plugin/build/examples/effect-classic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bee3dslider/codecanyon-9853467-bee3d-slider-touchenabled-pure-js-plugin/build/examples/interactions-touches.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bee3dslider/codecanyon-9853467-bee3d-slider-touchenabled-pure-js-plugin/build/examples/interactions-slides.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="97" column="7" lean-forward="true" selection-start-line="90" selection-start-column="3" selection-end-line="97" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/partials/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/bee3dslider/codecanyon-9853467-bee3d-slider-touchenabled-pure-js-plugin/build/examples/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="88" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/partials/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="356" column="21" selection-start-line="356" selection-start-column="21" selection-end-line="356" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="357" column="63" selection-start-line="357" selection-start-column="63" selection-end-line="357" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#!!top" />
+            <element signature="n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#style#0;n#section#2;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#!!top" />
+            <element signature="n#style#0;n#section#3;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#3;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#3;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#3;n#!!top" />
+            <marker date="1535890471873" expanded="true" signature="11656:17035" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

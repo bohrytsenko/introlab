@@ -67,13 +67,20 @@ p {
   padding: 0 30px;
   height: 48px;
   border-radius: 2px;
+  border: 1px solid #2968b7;
   background-color: #2968b7;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  transition: 0.5s;
   i {
     margin-left: 12px;
+  }
+  &:hover {
+    transition: 0.5s;
+    color: #2968b7;
+    background: #fff;
   }
 }
 
@@ -85,7 +92,7 @@ p {
   height: 48px;
   border-radius: 2px;
   background-color: #fff;
-  border: 1px solid #2968b7;;
+  border: 1px solid #2968b7;
   color: #2968b7;
   font-size: 16px;
   font-weight: 400;
@@ -93,5 +100,15 @@ p {
   i {
     margin-left: 12px;
     color: #2968b7;
+    transition: 0.5s;
+  }
+  &:hover {
+    transition: 0.5s;
+    color: #fff;
+    background: #2968b7;
+    i {
+      color: #fff;
+      transition: 0.5s;
+    }
   }
 }

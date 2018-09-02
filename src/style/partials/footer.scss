@@ -56,6 +56,11 @@
         line-height: 36px;
         display: flex;
         align-items: center;
+        transition: 0.5s;
+        &:hover {
+          transition: 0.5s;
+          color: #2968b7;
+        }
         i {
           margin-right: 15px;
         }
@@ -81,6 +86,11 @@
             color: #fff;
             margin: 0;
           }
+          transition: 0.5s;
+          &:hover {
+            transition: 0.5s;
+            background-color: #2968b7;
+          }
         }
       }
     }
@@ -94,6 +104,11 @@
         a {
           position: relative;
           padding: 0 20px;
+          transition: 0.5s;
+          &:hover {
+            transition: 0.5s;
+            color: #2968b7;
+          }
           &:before {
             position: absolute;
             content: '';

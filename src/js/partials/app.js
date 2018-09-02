@@ -39,8 +39,48 @@ $( document ).ready(function() {
     });
 
 
-    // 3d carousel
+    // Scroll to
+
+    $(".header_scroll a").on("click", function(e) {
+        e.preventDefault();
+        $("html, body").animate({
+            scrollTop: $($(this).attr("href")).offset().top
+        }, 1000);
+    });
+
+    // Swiper
 
 
+    var swiper = new Swiper( '.swiper-container.two', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        effect: 'coverflow',
+        loop: false,
+        centeredSlides: true,
+        slidesPerView: '3',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 100,
+            modifier: 1.5,
+            slideShadows : false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    } );
+
+    var element = document.querySelector('.example');
+
+    var slider = new Bee3D(element, {
+        effect: 'carousel',
+        listeners: {
+            keys: true
+        },
+        navigation: {
+            enabled: true
+        }
+    });
 });
+
 

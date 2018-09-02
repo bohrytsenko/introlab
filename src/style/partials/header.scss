@@ -36,6 +36,11 @@
             font-weight: 400;
             line-height: 24px;
             text-transform: uppercase;
+            transition: 0.5s;
+            &:hover {
+              transition: 0.5s;
+              color: #2968b7;
+            }
           }
         }
       }

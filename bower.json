@@ -8,11 +8,8 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "normalize-css": "normalize.css#^7.0.0",
-    "swiper": "^3.4.2",
-    "slideout.js": "https://github.com/mango/slideout.git#^1.0.1",
-    "preloader.css3": "^1.0.2",
-    "pure": "^1.0.0",
-    "components-font-awesome": "^4.7.0"
+    "swiper": "^4.3.5",
+    "components-font-awesome": "^5.0.6"
   },
   "ignore": [
     "**/.*",
