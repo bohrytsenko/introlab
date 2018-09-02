@@ -1,0 +1,42 @@
+{
+  "name": "Hrytsenko Template",
+  "version": "1.0.0",
+  "description": "Template for web dev",
+  "author": "Hrytsenko Bohdan <hrytsenkobohdan@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/bohrytsenko/hrytsenko_template.git)"
+  },
+  "keywords": [
+    "template",
+    "web"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "grunt-pure-grids": "^1.0.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sftp": "^0.1.5",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uncss": "^1.0.6",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.0",
+    "require-dir": "^0.3.2",
+    "rimraf": "^2.6.1",
+    "wiredep": "^4.0.0"
+  }
+}

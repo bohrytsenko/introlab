@@ -1,0 +1,126 @@
+// Footer
+
+.footer {
+  padding: 195px 0 75px 0;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &_join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(62, 76, 94, 0.28);
+    margin-bottom: 85px;
+    &__title {
+      margin-right: 55px;
+      .title {
+        color: #3d4e67;
+        font-family: "Josefin Sans";
+        font-size: 45px;
+        font-weight: 300;
+        line-height: 56px;
+        letter-spacing: -1px;
+      }
+    }
+    &__btn {
+      a {
+        padding: 0 50px;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer_item {
+  width: 20%;
+  &__title {
+    margin-bottom: 50px;
+    .title {
+      color: #313c4a;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1;
+      letter-spacing: 1.08px;
+    }
+  }
+  ul {
+    li {
+      a {
+        color: #8193a9;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        i {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+  &__socials {
+    margin-bottom: 30px;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      li {
+        margin-left: 17px;
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 26px;
+          height: 26px;
+          background-color: #6a798d;
+          border-radius: 50%;
+          i {
+            color: #fff;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  &__links {
+    margin-bottom: 25px;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      li {
+        a {
+          position: relative;
+          padding: 0 20px;
+          &:before {
+            position: absolute;
+            content: '';
+            right: 0;
+            height: 40%;
+            width: 2px;
+            background-color: #6a798d;
+          }
+        }
+        &:last-child {
+          a {
+            padding-right: 0;
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__copyright {
+    text-align: right;
+    p {
+      color: #6a798d;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1;
+    }
+  }
+}
