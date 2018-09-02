@@ -68,15 +68,15 @@
 .how_about {
   position: relative;
   &__number {
-    position: absolute;
-    top: -60px;
+    position: relative;
+    top: 22px;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
             from(rgba(0,0,0,1)), to(rgba(0, 0, 0, 0.25)));
     opacity: 0.3;
     color: #9bb2cc;
     font-size: 108px;
     font-weight: 900;
-    line-height: 75.37px;
+    line-height: 95px;
     letter-spacing: 3.2px;
   }
   &__title {
@@ -356,7 +356,7 @@
 }
 
 .bee3D--nav {
-  z-index: 10;
+  z-index: 21;
   position: relative;
   font-size: 14px!important;
 }
@@ -388,8 +388,35 @@
     margin: 0 auto;
     top: inherit;
     left: inherit;
+
   }
   .bee3D--slide__active {
     filter: grayscale(0%);
+    z-index: 20;
+  }
+}
+
+.testimonials {
+  .bee3D--effect__coverflow .bee3D--after-1 {
+    transform: translateX(80px) rotateY(0deg) scale(.9);
+  }
+  .bee3D--effect__coverflow .bee3D--after-2 {
+    transform: translateX(160px) rotateY(0deg) scale(.9);
+    opacity: 0;
+  }
+  .bee3D--effect__coverflow .bee3D--after-3 {
+    transform: translateX(240px) rotateY(0deg) scale(.9);
+    opacity: 0;
+  }
+  .bee3D--effect__coverflow .bee3D--before-1 {
+    transform: translateX(-80px) rotateY(0deg) scale(.9);
+  }
+  .bee3D--effect__coverflow .bee3D--before-2 {
+    transform: translateX(-160px) rotateY(0deg) scale(.9);
+    opacity: 0;
+  }
+  .bee3D--effect__coverflow .bee3D--before-3 {
+    transform: translateX(-240px) rotateY(0deg) scale(.9);
+    opacity: 0;
   }
 }

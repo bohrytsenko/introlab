@@ -74,6 +74,7 @@ $( document ).ready(function() {
 
     var slider = new Bee3D(element, {
         effect: 'coverflow',
+        focus: 3,
         listeners: {
             keys: true,
             touches: true
