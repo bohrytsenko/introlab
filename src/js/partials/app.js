@@ -73,12 +73,17 @@ $( document ).ready(function() {
     var element = document.querySelector('.example');
 
     var slider = new Bee3D(element, {
-        effect: 'carousel',
+        effect: 'coverflow',
         listeners: {
-            keys: true
+            keys: true,
+            touches: true
         },
         navigation: {
             enabled: true
+        },
+        loop: {
+            enabled: true,
+            continuous: true
         }
     });
 });
