@@ -77,7 +77,7 @@ $( document ).ready(function() {
         focus: 3,
         listeners: {
             keys: true,
-            touches: true
+            touches: false
         },
         navigation: {
             enabled: true
