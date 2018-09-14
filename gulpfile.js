@@ -57,7 +57,7 @@ var config = {
 };
 
 gulp.task('bower', function () {
-    gulp.src('./build/index.html')
+    gulp.src('./build/*.*')
         .pipe(wiredep({
             directory: "build/bower_comp"
         }))

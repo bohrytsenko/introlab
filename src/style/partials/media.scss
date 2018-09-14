@@ -116,6 +116,29 @@ body {
         text-align: left;
       }
     }
+  //  Soon
+    .soon__bottom {
+      padding-top: 200px;
+      background-color: #f6fafa;
+    }
+    .soon_form form {
+      flex-direction: column;
+      input {
+        width: 300px;
+        margin: 0 auto 20px auto;
+        max-width: 100%;
+      }
+      input[type="text"] {
+        border: 1px solid #c2cad4;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+      }
+      input[type="email"] {
+        border-right: 1px solid #c2cad4;
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+    }
   }
 
   // break max-1024
