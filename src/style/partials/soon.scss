@@ -1,32 +1,39 @@
 // Soon
 
 .soon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   &__top {
-    padding: 40px 0 197px 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    padding: 40px 0 55px 0;
     position: relative;
-    z-index: 1;
+    background-color: #e9f5fb;
+    z-index: 0;
+    clip-path: polygon(0px 100%,100% 81%,100% 0,0px 0px)
   }
   &__bottom {
-    padding: 147px 0 63px 0;
+    padding: 55px 0 63px 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
-    margin-top: -165px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
   }
 }
 
 .soon_top {
-  &__logo {
-    margin-bottom: 170px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
   }
 }
 
 .soon_info {
+  padding-top: 170px;
   &__title {
     margin-bottom: 40px;
     .title {

@@ -1,6 +1,30 @@
 $( document ).ready(function() {
 
+    // Sign up
 
+    $("#signup").click(function(e){
+        e.preventDefault();
+
+        $.post("test.php",
+            {
+                fullname: $("#fullname").val(),
+                email: $("#email").val()
+            },
+            function(data, status){
+                var obj = JSON.parse(data);
+
+                console.log(obj);
+                if (obj.status == 400) {
+                    $(".error").html(obj.detail)
+                    $(".error").show().delay(5000).fadeOut();
+                } else {
+                    $(".success").html("You have been subscribed.")
+                    $(".success").show().delay(5000).fadeOut();
+                }
+
+
+            });
+    });
 
     // Select
 
