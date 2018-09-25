@@ -1,10 +1,9 @@
 // Footer
 
 .footer {
+  background-color: #f9fafb;
+  clip-path: polygon(0% 100%,100% 100%,100% 15%,0 0);
   padding: 195px 0 75px 0;
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
   &_join {
     display: flex;
     align-items: center;

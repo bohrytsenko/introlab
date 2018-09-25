@@ -3,12 +3,14 @@
 .header {
   position: relative;
   z-index: 1;
-  padding: 40px 0 0 0;
+  padding: 23px 0;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  &_simple {
+    background-color: #fff;
+  }
   &_top {
-    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -161,6 +163,7 @@
 // Header info
 
 .header_info {
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   &__about {

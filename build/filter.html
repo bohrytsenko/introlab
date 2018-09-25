@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head lang="eng">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <title>Introlab</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bee3D.min.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_comp/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="bower_comp/swiper/dist/css/swiper.css" />
+    <link rel="stylesheet" href="bower_comp/components-font-awesome/css/fontawesome-all.css" />
+    <!-- endbower -->
+</head>
+<body>
+
+<!--begin header-->
+<header class="header header_simple">
+    <div class="container">
+        <div class="header__top header_top">
+            <div class="header_top__logo logo">
+                <a href="/"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="header_top__nav nav">
+                <ul>
+                    <li>
+                        <a href="#/">Log in</a>
+                    </li>
+                    <li>
+                        <a href="#/">Sign up</a>
+                    </li>
+                </ul>
+                <div class="nav__btn nav_btn">
+                    <a class="btn_blue" href="#/">Become a Provider</a>
+                </div>
+                <div class="nav__lang lang">
+                    <select placeholder="EN" name="sources" class="custom-select sources">
+                        <option>En</option>
+                        <option>Ua</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end header-->
+
+<!--begin filter_top-->
+<section class="filter_top">
+    <div class="container">
+       <div class="filter_top__wrapper">
+           <div class="filter_top__info">
+               <h1 class="title">
+                   Search the consultants
+               </h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               <form>
+                   <input type="search" placeholder="Search by keyword">
+                   <input type="submit" value="">
+               </form>
+           </div>
+           <div class="filter_top__img">
+               <img src="img/img_filter.png" alt="Filter top">
+           </div>
+       </div>
+    </div>
+</section>
+<!--end filter_top-->
+<!--begin search-->
+<section class="filter_search" style="background-image: url('img/bg_search.png')">
+    <div class="container">
+        <div class="filter_search__form filter_form">
+            <form>
+                <div class="filter_form__item">
+                    <label class="label_full" for="industry">
+                        Industry
+                        <select name="industry" id="industry">
+                            <option value="">Choose from list</option>
+                            <option value="">first</option>
+                            <option value="">second</option>
+                            <option value="">third</option>
+                        </select>
+                    </label>
+                    <label class="label_full" for="location">
+                        Location
+                        <select name="location" id="location">
+                            <option value="">Choose from list</option>
+                            <option value="">first</option>
+                            <option value="">second</option>
+                            <option value="">third</option>
+                        </select>
+                    </label>
+                    <label class="label_half" for="rating">
+                        Rating
+                        <select name="rating" id="rating">
+                            <option value="">---</option>
+                            <option value="">first</option>
+                            <option value="">second</option>
+                            <option value="">third</option>
+                        </select>
+                    </label>
+                    <label class="label_half" for="experience">
+                        Experience:
+                        <select name="experience" id="experience">
+                            <option value="">---</option>
+                            <option value="">first</option>
+                            <option value="">second</option>
+                            <option value="">third</option>
+                        </select>
+                    </label>
+                    <label class="label_full" for="language">
+                        Language:
+                        <select name="language" id="language">
+                            <option value="">---</option>
+                            <option value="">first</option>
+                            <option value="">second</option>
+                            <option value="">third</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="filter_form__item">
+                    <label>
+                        <input type="submit" value="Search">
+                    </label>
+                    <label>
+                        <button>
+                            <img src="img/icon_clear.svg" alt="Clear">
+                            Clear search parameters
+                        </button>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--end search-->
+<!--begin search result-->
+<section class="search_result">
+    <div class="container">
+        <div class="search_result__title">
+            <h2 class="title">Search result: <span>24</span></h2>
+        </div>
+        <div class="search_result__list search_result_list">
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_1.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>John Robinson</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_logotype.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                       <div class="result_center__item result_exp">
+                           <p>6 years of experience</p>
+                       </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_2.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>Rebecca Van Buuren</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_company.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                        <div class="result_center__item result_exp">
+                            <p>6 years of experience</p>
+                        </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_3.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>Alexander Julliani</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_company_2.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                        <div class="result_center__item result_exp">
+                            <p>6 years of experience</p>
+                        </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_1.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>John Robinson</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_logotype.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                        <div class="result_center__item result_exp">
+                            <p>6 years of experience</p>
+                        </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_2.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>Rebecca Van Buuren</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_company.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                        <div class="result_center__item result_exp">
+                            <p>6 years of experience</p>
+                        </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+            <!--begin result item-->
+            <div class="search_result_list__item result_item">
+                <div class="result_item__avatar">
+                    <img src="img/avatar_3.png" alt="Avatar">
+                </div>
+                <div class="result_item__info result_info">
+                    <div class="result_info__top result_top">
+                        <div class="result_top__name">
+                            <p>Alexander Julliani</p>
+                        </div>
+                        <div class="result_top__logo">
+                            <p>CompanyName Corp</p>
+                            <img src="img/logo_company_2.png" alt="Logo">
+                        </div>
+                    </div>
+                    <div class="result_item__center result_center">
+                        <div class="result_center__item result_position">
+                            <p>Senior Developer</p>
+                        </div>
+                        <div class="result_center__item result_skills">
+                            <p>PHP, Python, Wordpress</p>
+                        </div>
+                        <div class="result_center__item result_exp">
+                            <p>6 years of experience</p>
+                        </div>
+                    </div>
+                    <div class="result_item__bottom result_bottom">
+                        <div class="result_bottom__location">
+                            <img src="img/icon_location.svg" alt="Location">
+                            <p>San Francisco, CA</p>
+                        </div>
+                        <div class="result_bottom__lang">
+                            <p>Language:</p>
+                            <img src="img/flag_usa.png" alt="USA">
+                            <img src="img/flag_german.png" alt="German">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end result item-->
+        </div>
+        <div class="search_result__pagination pagination">
+            <div class="pagination__wrapper">
+                <a href="#/">1</a>
+                <a href="#/">2</a>
+                <a href="#/">3</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end search result-->
+
+<!--begin footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__join footer_join">
+            <div class="footer_join__title">
+                <h2 class="title">Who the site is for and how to join!</h2>
+            </div>
+            <div class="footer_join__btn">
+                <a class="btn_blue" href="#/">Join Now !</a>
+            </div>
+        </div>
+        <div class="footer__nav footer_nav">
+            <!--begin footer item-->
+            <div class="footer_nav__item footer_item">
+                <div class="footer_item__title">
+                    <h4 class="title">Solutions</h4>
+                </div>
+                <ul>
+                    <li><a href="#/">Red team Operations</a></li>
+                    <li><a href="#/">Professional Services</a></li>
+                    <li><a href="#/">Defence Operation</a></li>
+                    <li><a href="#/">Beyond Support</a></li>
+                </ul>
+            </div>
+            <!--end footer item-->
+            <!--begin footer item-->
+            <div class="footer_nav__item footer_item">
+                <div class="footer_item__title">
+                    <h4 class="title">About</h4>
+                </div>
+                <ul>
+                    <li><a href="#/">Company</a></li>
+                    <li><a href="#/">Partnerships</a></li>
+                    <li><a href="#/">Investors</a></li>
+                    <li><a href="#/">Careers</a></li>
+                    <li><a href="#/">Blog</a></li>
+                </ul>
+            </div>
+            <!--end footer item-->
+            <!--begin footer item-->
+            <div class="footer_nav__item footer_item">
+                <div class="footer_item__title">
+                    <h4 class="title">River Oakfield</h4>
+                </div>
+                <ul>
+                    <li>
+                        <a href="tel:310-666-3542">
+                            <i class="fas fa-phone"></i>
+                            310-666-3542
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:sales@Introlabcom">
+                            <i class="far fa-envelope"></i>
+                            sales@Introlabcom
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--end footer item-->
+            <!--begin footer item-->
+            <div class="footer_nav__item footer_item">
+                <div class="footer_item__socials socials">
+                    <ul>
+                        <li>
+                            <a href="#/"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#/"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_item__links">
+                    <ul>
+                        <li>
+                            <a href="#/">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="#/">Site map</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_item__copyright">
+                    <p>© 2018 Intro Lab</p>
+                </div>
+            </div>
+            <!--end footer item-->
+        </div>
+    </div>
+</footer>
+<!--end footer-->
+
+<!-- bower:js -->
+<script src="bower_comp/jquery/dist/jquery.js"></script>
+<script src="bower_comp/swiper/dist/js/swiper.js"></script>
+<!-- endbower -->
+<!-- Scripts -->
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/bee3D.min.js"></script>
+</body>
+</html>

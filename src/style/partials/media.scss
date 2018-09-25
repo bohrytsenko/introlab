@@ -86,6 +86,9 @@ body {
     .featured_item {
       margin: 0 auto 30px auto!important;
     }
+    .footer {
+      clip-path: polygon(0% 100%,100% 100%,100% 5%,0 0);
+    }
     .footer_join {
       flex-wrap: wrap;
       &__title {
@@ -155,6 +158,51 @@ body {
         border-bottom-left-radius: 2px;
       }
     }
+
+    // Filter
+
+    .filter_top {
+      clip-path: polygon(0 95%, 100% 100%, 100% 0, 0 0);
+      &__img {
+        width: 100%;
+      }
+    }
+    .filter_search {
+      padding: 130px 0 85px 0;
+      margin-top: -100px !important;
+    }
+    .filter_search form {
+      flex-wrap: wrap;
+    }
+    .filter_form__item {
+      &:first-child {
+        width: 100% !important;
+      }
+      &:nth-child(2) {
+        width: 100% !important;
+      }
+    }
+    .label_half {
+      width: 47%!important;
+    }
+    .result_item {
+      flex-wrap: wrap;
+      &__avatar {
+        width: 100%!important;
+      }
+      &__info {
+        width: 100%!important;
+      }
+    }
+    .result_top__name {
+      margin-bottom: 15px;
+    }
+    .result_center__item {
+      margin-bottom: 15px;
+    }
+    .result_bottom__location {
+      margin-bottom: 15px;
+    }
   }
 
 
@@ -198,6 +246,9 @@ body {
       padding: 40px 0 45px 0;
       clip-path: polygon(0 100%,100% 85%,100% 0,0 0);
     }
+    .footer {
+      clip-path: polygon(0% 100%,100% 100%,100% 10%,0 0);
+    }
   }
 
   // break max-1024
@@ -205,12 +256,50 @@ body {
     .soon_info {
       margin-bottom: 50px;
     }
+    .filter_top__wrapper {
+      flex-wrap: wrap;
+    }
+    .filter_top {
+      &__info {
+        margin: 0 auto;
+        text-align: center;
+      }
+      &__img {
+        margin: 0 auto;
+      }
+    }
+    .result_item__avatar {
+      width: 18%;
+    }
+    .result_center__item {
+      margin-right: 18px;
+    }
+    .result_bottom__location {
+      margin-right: 20px;
+    }
   }
 
   // break max-1200
   @media only screen and (max-width: $r-1200 - 1) {
     .container {
       padding: 0 15px;
+    }
+    .filter_search {
+      margin-top: -80px;
+    }
+    .label_half {
+      width: 20%;
+    }
+    .label_full {
+      width: 47%;
+    }
+    .filter_form__item {
+      &:first-child {
+        width: 65%;
+      }
+      &:nth-child(2) {
+        width: 31%;
+      }
     }
   }
 
