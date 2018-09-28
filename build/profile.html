@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head lang="eng">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff">
+    <title>Introlab</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bee3D.min.css">
+    <link rel="stylesheet" href="bower_comp/percircle/dist/css/percircle.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_comp/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="bower_comp/swiper/dist/css/swiper.css" />
+    <link rel="stylesheet" href="bower_comp/components-font-awesome/css/fontawesome-all.css" />
+    <!-- endbower -->
+</head>
+<body>
+
+<!--begin header-->
+<header class="header header_simple">
+    <div class="container">
+        <div class="header__top header_top">
+            <div class="header_top__logo logo">
+                <a href="/"><img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="header_top__profile header_top_profile">
+                <a href="#/" class="header_top_profile__person">
+                    <div class="header_top_profile__avatar">
+                        <img src="img/avatar_profile.png" alt="Avatar">
+                    </div>
+                    <div class="header_top_profile__name">
+                        John Doe
+                    </div>
+                    <img src="img/icon_select.svg" alt="Select">
+                </a>
+                <a href="#/" class="header_top_profile__settings">
+                    <img src="img/icon_settings.png" alt="Setting">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--end header-->
+
+<!--begin profile info-->
+<div class="profile_bg">
+    <section class="profile_info">
+        <div class="container">
+            <div class="profile_info__wrapper profile_wrap">
+                <div class="profile_wrap__avatar">
+                    <img src="img/avatar_profile.png" alt="Avatar">
+                </div>
+                <div class="profile_wrap__about profile_about">
+                    <div class="profile_about__name">
+                        <h3 class="title">John Doe</h3>
+                    </div>
+                    <div class="profile_about__socials profile_socials">
+                        <div class="profile_socials__rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <div class="profile_socials__icons">
+                            <a href="#/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#/"><i class="fab fa-twitter"></i></a>
+                            <a href="#/"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="profile_about__introduction">
+                        <h3>Introduction</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                    <div class="profile_about__location">
+                        <p><b>Location</b> : United states</p>
+                    </div>
+                    <div class="profile_about__language">
+                        <p><b>Language</b> : English, Spanish</p>
+                    </div>
+                    <div class="profile_about__industry">
+                        <p><b>Industry expertise type:</b></p>
+                        <a href="#/">Business</a>
+                        <a href="#/">Technology</a>
+                        <a href="#/">Professionals</a>
+                    </div>
+                </div>
+                <div class="profile_wrap__request">
+                    <a href="#/">Request a session</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--end profile info-->
+<!--begin profile content-->
+<section class="profile_content">
+    <div class="container">
+        <div class="profile_content__wrapper profile_content_wrap">
+            <div class="profile_content_wrap__video profile_video">
+                <div class="profile_video__icon">
+                    <a href="#/">
+                        <img src="img/icon_full_screen.png" alt="Full">
+                    </a>
+                </div>
+                <div class="profile_video__img">
+                    <img src="img/img_video.png" alt="Video">
+                    <a href="#/">
+                        <img src="img/icon_video.png" alt="Video">
+                        Watch now
+                    </a>
+                </div>
+            </div>
+            <div class="profile_content_wrap__score profile_score">
+                <div class="profile_score__title pr_bl_title">
+                    <h3 class="title">Average score</h3>
+                </div>
+                <div class="profile_score__percent">
+                    <div id="bluecircle" data-percent="65" class="big">
+                    </div>
+                </div>
+                <div class="profile_score__text">
+                    <p>Based on last 24 months</p>
+                </div>
+            </div>
+            <div class="profile_content_wrap__history profile_history">
+                <div class="profile_history__title pr_bl_title">
+                    <h3 class="title">work history</h3>
+                </div>
+                <div class="profile_history__text">
+                    <img src="img/logo_chetu.png" alt="Chetu">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  aliqua. </p>
+                </div>
+                <div class="profile_history__slider">
+                    <div class="profile_slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide profile_slider__item pr_slider_item">
+                                <div class="pr_slider_item__years">
+                                    2014-2015
+                                </div>
+                                <div class="pr_slider_item__position">
+                                    Digital Manager
+                                </div>
+                                <div class="pr_slider_item__company">Chetu Inc</div>
+                            </div>
+                            <div class="swiper-slide profile_slider__item pr_slider_item swiper-slide-active">
+                                <div class="pr_slider_item__years">
+                                    2015-2016
+                                </div>
+                                <div class="pr_slider_item__position">
+                                    Digital Manager
+                                </div>
+                                <div class="pr_slider_item__company">Chetu Inc</div>
+                            </div>
+                            <div class="swiper-slide profile_slider__item pr_slider_item">
+                                <div class="pr_slider_item__years">
+                                    2016-2017
+                                </div>
+                                <div class="pr_slider_item__position">
+                                    Digital Manager
+                                </div>
+                                <div class="pr_slider_item__company">Chetu Inc</div>
+                            </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+                        <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile_content_wrap__education profile_education">
+                <div class="profile_education__title pr_bl_title">
+                    <h3 class="title">Education</h3>
+                </div>
+                <div class="profile_education__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                </div>
+                <div class="profile_education__skills">
+                    <h3 class="title">Skills</h3>
+                    <a href="#/">Google Analytics</a>
+                    <a href="#/">Digital Marketing</a>
+                    <a href="#/">User Experience</a>
+                    <a href="#/">CSS</a>
+                    <a href="#/">Web Design</a>
+                    <a href="#/">Usablity</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end profile content-->
+<!--begin profile review-->
+<section class="profile_review">
+    <div class="container">
+        <div class="profile_review__wrapper profile_review_wrap">
+            <div class="profile_review_wrap__title pr_bl_title">
+                <h3 class="title">Review</h3>
+            </div>
+            <!--begin profile review item-->
+            <div class="profile_review_wrap__item profile_review_item">
+                <div class="profile_review_item__avatar">
+                    <img src="img/avatar_review_1.png" alt="Review">
+                </div>
+                <div class="profile_review_item__info">
+                    <h3 class="title">Stiphen Jones</h3>
+                    <p>Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfa cilisis, justo odio mattis enim.Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfacilisis, justo odio mattis enim.</p>
+                    <div class="profile_socials__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+            <!--end profile review item-->
+            <!--begin profile review item-->
+            <div class="profile_review_wrap__item profile_review_item">
+                <div class="profile_review_item__avatar">
+                    <img src="img/avatar_review_2.png" alt="Review">
+                </div>
+                <div class="profile_review_item__info">
+                    <h3 class="title">Stiphen Jones</h3>
+                    <p>Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfa cilisis, justo odio mattis enim.Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfacilisis, justo odio mattis enim.</p>
+                    <div class="profile_socials__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+            <!--end profile review item-->
+            <!--begin profile review item-->
+            <div class="profile_review_wrap__item profile_review_item">
+                <div class="profile_review_item__avatar">
+                    <img src="img/avatar_review_3.png" alt="Review">
+                </div>
+                <div class="profile_review_item__info">
+                    <h3 class="title">Stiphen Jones</h3>
+                    <p>Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfa cilisis, justo odio mattis enim.Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfacilisis, justo odio mattis enim.</p>
+                    <div class="profile_socials__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+            <!--end profile review item-->
+            <!--begin profile review item-->
+            <div class="profile_review_wrap__item profile_review_item">
+                <div class="profile_review_item__avatar">
+                    <img src="img/avatar_review_4.png" alt="Review">
+                </div>
+                <div class="profile_review_item__info">
+                    <h3 class="title">Stiphen Jones</h3>
+                    <p>Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfa cilisis, justo odio mattis enim.Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfacilisis, justo odio mattis enim.</p>
+                    <div class="profile_socials__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+            <!--end profile review item-->
+            <!--begin profile review item-->
+            <div class="profile_review_wrap__item profile_review_item">
+                <div class="profile_review_item__avatar">
+                    <img src="img/avatar_review_4.png" alt="Review">
+                </div>
+                <div class="profile_review_item__info">
+                    <h3 class="title">Stiphen Jones</h3>
+                    <p>Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfa cilisis, justo odio mattis enim.Maecenas gravida, felis eleifend varius facilisis, justo odio mattis enim Maecenas gravida, felis eleifend varius facilisis, justo odio mattisfacilisis, justo odio mattis enim.</p>
+                    <div class="profile_socials__rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4.8)</span>
+                    </div>
+                </div>
+            </div>
+            <!--end profile review item-->
+            <div class="profile_review__more">
+                <button id="load_more">
+                    More
+                    <img src="img/icon_more.png" alt="More">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!--begin profile review-->
+
+<!--begin footer profile-->
+<footer class="profile_footer">
+    <div class="container">
+        <div class="profile_footer__nav">
+            <ul>
+                <li>
+                    <a href="#/">Company</a>
+                </li>
+                <li>
+                    <a href="#/">Partnerships</a>
+                </li>
+                <li>
+                    <a href="#/">Investors</a>
+                </li>
+                <li>
+                    <a href="#/">Careers</a>
+                </li>
+                <li>
+                    <a href="#/">Blog</a>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>© 2018 Intro Lab</p>
+            </div>
+        </div>
+        <div class="profile_footer__socials">
+            <a href="#/"><i class="fab fa-facebook-f"></i></a>
+            <a href="#/"><i class="fab fa-twitter"></i></a>
+            <a href="#/"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+<!--end footer profile-->
+
+<!-- bower:js -->
+<script src="bower_comp/jquery/dist/jquery.js"></script>
+<script src="bower_comp/swiper/dist/js/swiper.js"></script>
+<script src="bower_comp/percircle/dist/js/percircle.js"></script>
+<!-- endbower -->
+<!-- Scripts -->
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script type="text/javascript" src="js/bee3D.min.js"></script>
+</body>
+</html>

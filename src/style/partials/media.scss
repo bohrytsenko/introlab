@@ -203,6 +203,81 @@ body {
     .result_bottom__location {
       margin-bottom: 15px;
     }
+
+    // Profile
+
+    .header_top_profile {
+      width: 100%;
+      justify-content: center;
+    }
+    .profile_info {
+      clip-path: polygon(0 95%,100% 100%,100% 0,0 0);
+    }
+    .profile_wrap {
+      flex-direction: column;
+      &__avatar {
+        margin-bottom: 30px;
+        width: 100% !important;
+      }
+      &__about {
+        width: 100% !important;
+      }
+      &__request {
+        width: 100%;
+        text-align: right;
+        a {
+          display: inline-flex;
+        }
+      }
+    }
+    .profile_video {
+      width: 100%;
+      &__img img {
+        height: auto;
+      }
+    }
+    .profile_score {
+      width: 100%;
+    }
+    .profile_history {
+      width: 100%;
+    }
+    .profile_education {
+      width: 100%;
+    }
+    .pr_slider_item {
+      &__position {
+        font-size: 12px;
+      }
+      &__company {
+        font-size: 12px;
+      }
+    }
+    .profile_review_item {
+      flex-direction: column;
+    }
+    .profile_footer {
+      .container {
+        flex-direction: column;
+      }
+      &__socials {
+        margin-top: 15px;
+        a {
+          margin: 0 10px 0 0;
+        }
+      }
+      &__nav {
+        ul {
+          flex-direction: column;
+          li {
+            margin: 0 0 10px 0;
+            &:before {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
 
 
@@ -241,13 +316,28 @@ body {
   }
 
   // break 768 - 992
-  @media only screen and (min-width: $r-768) and (max-width: $r-992) {
+  @media only screen and (min-width: $r-768) and (max-width: $r-1024) {
     .soon__top {
       padding: 40px 0 45px 0;
       clip-path: polygon(0 100%,100% 85%,100% 0,0 0);
     }
     .footer {
       clip-path: polygon(0% 100%,100% 100%,100% 10%,0 0);
+    }
+    .profile_video {
+      width: 48%;
+      &__img img {
+        height: auto;
+      }
+    }
+    .profile_score {
+      width: 48%;
+    }
+    .profile_history {
+      width: 48%;
+    }
+    .profile_education {
+      width: 48%;
     }
   }
 
@@ -276,6 +366,18 @@ body {
     }
     .result_bottom__location {
       margin-right: 20px;
+    }
+    .profile_wrap {
+      &__avatar {
+        width: 30%;
+        height: auto;
+      }
+      &__about {
+        width: 40%;
+      }
+    }
+    .profile_about__industry a {
+      margin-bottom: 15px;
     }
   }
 
